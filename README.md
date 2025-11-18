@@ -213,3 +213,14 @@ conn1.close()
 conn2.close()
 conn3.close()
 ```
+---
+
+## Developer Notes
+
+Used Pandas + SQLite to write filtering, ordering, limiting, grouping, and aggregation queries.
+
+Used Python REPL to confirm real column names in all 3 databases:
+- planets: num_of_moons
+- dogs: hungry, age, breed
+- babe_ruth: HR
+
